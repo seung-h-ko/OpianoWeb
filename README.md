@@ -5,7 +5,7 @@ Website made with Next.js
 ## Deployed on Google Firebase
 
 Link to the Website
-[Website](https://opianomtl.com/)
+[Opiano Restaurant](https://opianomtl.com/)
 
 ## Preview
 
