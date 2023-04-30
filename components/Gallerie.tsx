@@ -32,7 +32,7 @@ export default function Gallerie() {
             </motion.div>
 
             <div
-                className='flex flex-col flex-wrap items-center md:w-[70%] w-[90%] h-full max-w-[1280px]'>
+                className='flex flex-col flex-wrap items-center content-center md:w-[70%] w-[90%] h-full max-w-[1280px]'>
                 {
                     imgNames.map((imgName, i) => (
                         <motion.div
@@ -49,12 +49,12 @@ export default function Gallerie() {
                                 duration: 0.6,
                                 delay: i * 0.1
                             }}
-                            className='lg:w-[250px] md:w-[200px] w-[33%] p-1'
+                            className='lg:w-[200px] md:w-[200px] w-[30%] p-1'
                         >
                             <img
                                 src={`/gallerie/${imgNames[i]}`}
                                 alt=''
-                                className='object-cover hover:scale-125 duration-300'
+                                className='object-cover hover:scale-125 duration-300 max-h-44'
                             />
                         </motion.div>
                     ))

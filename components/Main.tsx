@@ -28,7 +28,7 @@ export default function Main() {
                     <img
                         src="/OPIANO-LOGO.png"
                         alt=''
-                        className=''
+                        className='max-h-36 mt-10'
                     />
                 </Link>
             </motion.div>

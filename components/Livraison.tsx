@@ -41,7 +41,7 @@ export default function Livraison() {
                     transition={{
                         duration: 0.8,
                     }}
-                    className='md:w-[15%] w-[30%]'
+                    className='md:w-[15%] w-[20%]'
                 >
                     <Link href="https://www.ubereats.com/ca/store/opiano/r_DTTCdwR9GhXpOYtLpoAA">
                         <img
@@ -63,7 +63,7 @@ export default function Livraison() {
                         duration: 0.8,
                         delay: 0.2
                     }}
-                    className='md:w-[15%] w-[30%]'
+                    className='md:w-[15%] w-[20%]'
                 >
                     <Link href="https://www.fantuanorder.com/store/opiano-korean-restaurant/ca-6960">
                         <img
@@ -85,7 +85,7 @@ export default function Livraison() {
                         duration: 0.8,
                         delay: 0.4
                     }}
-                    className='md:w-[15%] w-[30%]'
+                    className='md:w-[15%] w-[20%]'
                 >
                     <Link href="https://www.doordash.com/store/opiano-montr%C3%A9al-988810/">
                         <img
@@ -107,7 +107,7 @@ export default function Livraison() {
                         duration: 0.8,
                         delay: 0.6
                     }}
-                    className='md:w-[15%] w-[30%]'
+                    className='md:w-[15%] w-[20%]'
                 >
                     <Link href="https://www.skipthedishes.com/opiano">
                         <img
