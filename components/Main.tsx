@@ -22,7 +22,7 @@ export default function Main() {
                 transition={{
                     duration: 0.8
                 }}
-                className="flex w-2/3 justify-center object-cover"
+                className="flex flex-shrink justify-center object-cover"
             >
                 <Link href='#main'>
                     <img
@@ -53,7 +53,7 @@ export default function Main() {
                 >
                     <div className='flex flex-row space-x-3 items-center group-hover:scale-110 duration-200 relative group-hover:text-white'>
                         <MapPinIcon className='h-7 w-7' />
-                        <p className='font-bold text-lg md:text-4xl underline decoration-[#ffe7b3]'>
+                        <p className='font-bold text-lg md:text-2xl underline decoration-[#ffe7b3]'>
                             1115 Rue Sherbrooke O.
                         </p>
                         <div className='font-bold absolute group-hover:-top-7 -top-0 -rotate-12 opacity-0 group-hover:opacity-100 duration-300'>
@@ -65,11 +65,11 @@ export default function Main() {
                 </Link>
                 <div className='flex flex-row space-x-3 items-center'>
                     <PhoneIcon className='h-7 w-7' />
-                    <p className='font-bold text-lg md:text-4xl'>
+                    <p className='font-bold text-lg md:text-2xl'>
                         438-333-3335
                     </p>
                 </div>
-                <div className='flex flex-col space-y-2 w-2/3 py-3 text-lg font-bold md:text-2xl max-w-[550px]'>
+                <div className='flex flex-col space-y-1 w-2/3 py-3 text-lg font-bold md:text-xl max-w-[550px]'>
                     <div className='flex flex-row justify-between items-center'>
                         <p>LUN</p>
                         <p>11:30 - 20:00</p>

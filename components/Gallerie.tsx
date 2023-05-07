@@ -49,7 +49,7 @@ export default function Gallerie() {
                                 duration: 0.6,
                                 delay: i * 0.1
                             }}
-                            className='lg:w-[200px] md:w-[200px] w-[30%] p-1'
+                            className='lg:w-[200px] md:w-[200px] w-[30%] p-1 flex justify-center'
                         >
                             <img
                                 src={`/gallerie/${imgNames[i]}`}
