@@ -23,7 +23,7 @@ export default function Menu() {
 
     return (
         <div
-            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:pt-16 pt-16'
+            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:pt-10 pt-16'
         >
             <motion.div
                 initial={{
