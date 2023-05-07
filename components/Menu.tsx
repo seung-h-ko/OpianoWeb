@@ -23,7 +23,7 @@ export default function Menu() {
 
     return (
         <div
-            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:py-24 py-16'
+            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:pt-16 pt-16'
         >
             <motion.div
                 initial={{
@@ -61,7 +61,7 @@ export default function Menu() {
                 <div
                     id='menu#0'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu1.jpg"
@@ -72,7 +72,7 @@ export default function Menu() {
                 <div
                     id='menu#1'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu2.jpg"
@@ -83,7 +83,7 @@ export default function Menu() {
                 <div
                     id='menu#2'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu3.jpg"
@@ -94,7 +94,7 @@ export default function Menu() {
                 <div
                     id='menu#3'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu4.jpg"
@@ -105,7 +105,7 @@ export default function Menu() {
                 <div
                     id='menu#4'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu5.jpg"
@@ -116,7 +116,7 @@ export default function Menu() {
                 <div
                     id='menu#5'
                     className='w-screen flex-shrink-0 snap-start flex flex-col items-center justify-center
-                             py-20'
+                             py-1'
                 >
                     <img
                         src="/menu6.jpg"

@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <Livraison />
       </section>
 
-      <footer className='sticky bottom-[10%] w-full'>
+      <footer className='sticky sm:bottom-[5%] bottom-[10%] w-full'>
         <div className='flex item-center justify-center'>
           <Link href="#main">
             <ArrowUpCircleIcon className='h-10 w-10 rounded-full text-[#ffe7b3] hover:text-white hover:scale-110
