@@ -23,27 +23,8 @@ export default function Menu() {
 
     return (
         <div
-            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:pt-10 pt-16'
+            className='relative h-screen flex overflow-hidden flex-col justify-center items-center md:pt-20 pt-16'
         >
-            <motion.div
-                initial={{
-                    x: -100,
-                    opacity: 0
-                }}
-                whileInView={{
-                    x: 0,
-                    opacity: 1
-                }}
-                transition={{
-                    duration: 0.8,
-                }}
-            >
-                <h3 className='ml-3 uppercase tracking-[20px] text-[#ffe7b3] text-2xl md:text-4xl'>
-                    MENU
-                </h3>
-            </motion.div>
-
-
             <motion.div
                 initial={{
                     x: 100,
