@@ -20,8 +20,8 @@ const Home: NextPage = () => {
     overflow-x-hidden scrollbar-none scroll-smooth'>
 
       <Head>
-        <title>OPIANO Restaurant</title>
-        <meta name="description" content="Montreal Korean Restaurant" />
+        <title>OPIANO | Restaurant Coréen / Korean Restaurant In Montreal</title>
+        <meta name="description" content="Restaurant coréen au centre-ville de Montréal près de l'université McGill." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
