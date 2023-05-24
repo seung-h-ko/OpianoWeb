@@ -19,14 +19,14 @@ export default function Header({ inView }: Props) {
 
     return (
         <header className={inView
-            ? "md:text-2xl sticky top-[8%] text-[#ffe7b3] font-bold flex justify-center items-center w-full z-20 h-[5%] transition-all duration-1000"
-            : 'md:text-2xl sticky top-[0%] text-[#ffe7b3] font-bold flex w-full z-20 items-center justify-center h-[5%] transition-all duration-1000'
+            ? "md:text-2xl absolute top-20 text-[#ffe7b3] font-bold flex justify-center items-center w-full z-20 transition-all duration-700"
+            : 'md:text-2xl absolute top-0 text-[#ffe7b3] font-bold flex w-full z-20 items-center justify-center transition-all duration-700'
         }
         >
             <div
                 className={inView
-                    ? "flex flex-row border border-[#ffe7b3] rounded-2xl px-2 md:space-x-5 space-x-1 w-3/4 max-w-[768px] justify-center transition-all duration-1000"
-                    : "flex flex-row border border-[#ffe7b3]/0 rounded-2xl px-2 md:space-x-5 space-x-1 w-3/4 max-w-[768px] transition-all justify-center duration-1000"
+                    ? "flex flex-row border border-[#ffe7b3] rounded-3xl px-10 md:space-x-5 space-x-1 md:w-[600px] w-80 justify-center transition-all duration-1000"
+                    : "flex flex-row border border-[#ffe7b3]/0 rounded-none px-10 md:space-x-5 space-x-1 w-full transition-all justify-center duration-1000 bg-white"
                 }
             >
                 <motion.div
@@ -65,7 +65,7 @@ export default function Header({ inView }: Props) {
                     className="p-2 flex items-center"
                 >
                     <Link href='#menu'>
-                        <p className='hover:text-white hover:scale-125 transition-transform'>Menu</p>
+                        <p className='hover:scale-125 transition-transform'>Menu</p>
                     </Link>
                 </motion.div>
                 <motion.div
@@ -84,7 +84,7 @@ export default function Header({ inView }: Props) {
                     className="p-2 flex items-center"
                 >
                     <Link href='#gallerie'>
-                        <p className='hover:text-white hover:scale-125 transition-transform'>Gallerie</p>
+                        <p className='hover:scale-125 transition-transform'>Gallerie</p>
                     </Link>
                 </motion.div>
                 <motion.div
@@ -103,7 +103,7 @@ export default function Header({ inView }: Props) {
                     className="p-2 flex items-center"
                 >
                     <Link href='#livraison'>
-                        <p className='hover:text-white hover:scale-125 transition-transform'>Livraison</p>
+                        <p className='hover:scale-125 transition-transform'>Livraison</p>
                     </Link>
                 </motion.div>
             </div>
