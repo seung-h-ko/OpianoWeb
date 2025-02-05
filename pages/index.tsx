@@ -9,11 +9,23 @@ import Gallerie from '../components/Gallerie'
 import Livraison from '../components/Livraison'
 import Link from 'next/link'
 import { ArrowUpCircleIcon } from '@heroicons/react/24/solid'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import Notice from '../components/Notice';
 
 
 const Home: NextPage = () => {
   const [ref, inView] = useInView({})
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    // When the component mounts, show the modal
+    setModalOpen(true);
+  }, []);
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
 
   return (
     <div className='bg-gradient-to-tr from-[#ffad1f] to-[#ffc45d] h-screen text-white snap-y snap-mandatory overflow-y-scroll z-0
@@ -52,6 +64,14 @@ const Home: NextPage = () => {
           </Link>
         </div>
       </footer>
+
+      {/* <Notice isOpen={isModalOpen} onClose={handleCloseModal}>
+        <img
+            src="/notice.png"
+            alt=''
+            className='h-max w-max object-cover'
+        />
+      </Notice> */}
 
     </div>
   )
