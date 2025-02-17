@@ -88,7 +88,7 @@ export default function Main() {
                     </div>
                     <div className='flex flex-row justify-between items-center'>
                         <p>VEN</p>
-                        <p>11:30 - 15:00</p>
+                        <p>11:30 - 20:00</p>
                     </div>
                     <div className='flex flex-row justify-between items-center'>
                         <p>SAM</p>
